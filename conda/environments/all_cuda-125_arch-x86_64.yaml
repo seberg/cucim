@@ -7,7 +7,6 @@ channels:
 - nvidia
 dependencies:
 - GPUtil>=1.4.0
-- boost-cpp
 - c-compiler
 - catch2
 - cli11
@@ -25,6 +24,7 @@ dependencies:
 - jbig
 - lazy_loader>=0.1
 - libabseil
+- libboost-headers
 - libcufile-dev
 - libnvjpeg-dev
 - libnvjpeg-static

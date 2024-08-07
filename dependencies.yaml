@@ -103,11 +103,11 @@ dependencies:
           - wheel
       - output_types: [conda]
         packages:
-          - boost-cpp
           - catch2
           - cli11
           - fmt
           - libabseil
+          - libboost-headers
           - nvtx-c >=3.1.0
           - nlohmann_json
           - pybind11

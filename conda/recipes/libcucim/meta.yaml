@@ -74,12 +74,12 @@ requirements:
     - libnvjpeg-dev
     - libnvjpeg-static
     {% endif %}
-    - boost-cpp
     - catch2
     - cli11
     - fmt
     - jbig
     - libabseil
+    - libboost-headers
     - libwebp-base
     - nvtx-c >=3.1.0
     - nlohmann_json
